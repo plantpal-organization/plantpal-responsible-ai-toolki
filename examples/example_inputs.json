@@ -1,0 +1,74 @@
+{
+  "description": "Synthetic plant-care examples for the educational minimizer. These are not real user records.",
+  "cases": [
+    {
+      "name": "basil_usable_context",
+      "input": {
+        "plant_species": "Ocimum basilicum (sweet basil)",
+        "light_conditions": "Bright kitchen window, about four hours of direct morning sun.",
+        "soil_and_drainage": "Potting mix in a 15 cm pot with drainage holes. Soil surface dries between waterings.",
+        "care_goals": ["Keep a small kitchen herb healthy", "Harvest leaves for cooking"],
+        "observations": ["Lower leaves are slightly pale", "New growth at the tips looks firm"],
+        "recent_care_history": [
+          {
+            "action": "watered",
+            "observed_on": "2026-10-08",
+            "note": "Soil was dry about two centimetres down."
+          },
+          {
+            "action": "observed",
+            "observed_on": "2026-10-10",
+            "note": "No spots on the leaves."
+          }
+        ],
+        "experience_level": "beginner"
+      }
+    },
+    {
+      "name": "polluted_context_must_be_reduced",
+      "input": {
+        "plant_species": "Epipremnum aureum",
+        "light_conditions": "Indirect light in a living room.",
+        "soil_and_drainage": "Chunky mix, pot has drainage holes.",
+        "care_goals": "Keep the vine full",
+        "experience_level": "intermediate",
+        "email": "gardener@example.com",
+        "phone_number": "+96170111222",
+        "latitude": 33.8938,
+        "longitude": 35.5018,
+        "precise_location": "12 Example Street, Beirut",
+        "purchase_history": [{"sku": "SOIL-1", "price": 12}],
+        "vendor_commission": {"rate": 0.15, "vendor": "Example Nursery"},
+        "sponsorship_data": {"campaign": "spring-pots"},
+        "user_id": "user-example-100",
+        "nickname": "window plant"
+      }
+    },
+    {
+      "name": "basil_missing_species_and_hidden_contact",
+      "input": {
+        "light_conditions": "A sunny balcony.",
+        "observations": [
+          "Leaves droop by evening. Contact gardener@example.com or +1 202 555 0148."
+        ],
+        "recent_care_history": [
+          {
+            "action": "watered",
+            "observed_on": "2026-10-09",
+            "note": "Photo taken near 33.8938, 35.5018.",
+            "email": "hidden@example.com",
+            "dose_ml": 250
+          }
+        ],
+        "experience_level": "expert-grower"
+      }
+    },
+    {
+      "name": "species_only_thin_context",
+      "input": {
+        "plant_species": "Basil",
+        "care_goals": "   "
+      }
+    }
+  ]
+}
