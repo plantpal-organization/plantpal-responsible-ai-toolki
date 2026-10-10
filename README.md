@@ -95,4 +95,4 @@ A shorter account of the same boundary is in [Lessons from PlantPal](docs/lesson
 
 ## Status of this release
 
-Version 0.1.0, published on 11 October 2026. See [CHANGELOG.md](CHANGELOG.md). Community adoption is something we hope for. It is not something this release can claim.
+Version 0.1.0, published on 11 October 2026. See [CHANGELOG.md](CHANGELOG.md). 
